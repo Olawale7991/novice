@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/skydive2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav{
+display: flex;
+justify-content: space-evenly;
+}
+
+nav span{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    padding: 0 20px;
+    list-style: none;
+    color: lightgrey;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px 8px 0 0;
+}
+
+.title{
+    color: lightgrey;
+}
+
+.new{
+    text-align: center;
+    color: lightgrey;
+    font-size: 30px;
+}
+
+.old{
+    background-color: lightgreen;
+    color: white;
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 0 0 600px;
+}
+
+.old:hover{
+    background-color: rgba(13, 14, 13, 0);
+    color: lightgreen;
+    
+}
